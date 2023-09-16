@@ -2,10 +2,12 @@
 
 - Name:
 - How many hours did it take you to complete this assignment?
+0.5 hours
 - Did you collaborate with any other students/TAs/Professors?
+ No
 - Did you use any external resources? (Cite them below)
-  - tbd
-  - tbd
+  - N/A
+  - N/A
 - (Optional) What was your favorite part of the assignment?
 - (Optional) How would you improve the assignment?
 
@@ -13,6 +15,7 @@
 
 - You may use whatever operating system, IDE, or tools for completing this assignment.
 - In the future there may be restrictions, so please review here.
+  VS code
 
 # Part(s) to this assignment!
 
