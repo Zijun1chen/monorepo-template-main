@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/ZijunPy.egg-info/PKG-INFO
+src/ZijunPy.egg-info/SOURCES.txt
+src/ZijunPy.egg-info/dependency_links.txt
+src/ZijunPy.egg-info/top_level.txt
+src/jsonapi/__init__.py
+src/jsonapi/jsonapi.py
+test/test_json.py
+test/test_jsonapi.py
