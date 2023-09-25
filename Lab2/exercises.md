@@ -63,4 +63,8 @@ Notice how some methods have arguments that are set to `None` while other argume
 
 
 *Edit your responses here*
+<<<<<<< HEAD
 The default value is None: indicates an optional feature. Prevents problems with variable defaults. - Can the default value not be None? Yes, any valid Python value can be the default value. - Advantage of default: simplified call in common cases. Ensure backward compatibility. Provide hints about expectations. Reduce caller complexity. Provide more secure default behavior.
+=======
+The default value is None: indicates an optional feature. Prevents problems with variable defaults. - Can the default value not be None? Yes, any valid Python value can be the default value. - Advantage of default: simplified call in common cases. Ensure backward compatibility. Provide hints about expectations. Reduce caller complexity. Provide more secure default behavior.
+>>>>>>> c18438daf4a04b5b385bba5e8b3117d1947341a8

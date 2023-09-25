@@ -80,3 +80,7 @@ You (and any partner(s)) will receive the same grade from a scale of 0-2. Both p
 An optional task(if any) that will reinforce your learning throughout the semester--this is not graded.
 
 1. Try implementing more design patterns that you have learned today!
+<<<<<<< HEAD
+=======
+
+>>>>>>> c18438daf4a04b5b385bba5e8b3117d1947341a8
