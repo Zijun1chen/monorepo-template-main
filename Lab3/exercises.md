@@ -24,19 +24,7 @@ Update your answers to the following questions, make sure to commit this file an
 1. I did not declare a constructor for Texture. Does Python automatically create constructors for us? 
 	- *edit your response*
 If a class inherits from another class and does not define its own constructor, it will inherit the constructor of its parent class.  In this case, Texture will inherit the __init__ method from the Image class.
-=======
-1. The 'Image' class has commented code for a `__del__` method. What does this commented-out method do?
-	- *edit your response*
-1. What class does Texture inherit from?
-	- *edit your response*
-1. What methods and attributes does the Texture class inherit from 'Image'? 
-	- *edit your response*
-1. Do you think a texture should have a 'has-a' (composition) or 'is-a'(inheritance) relationship with 'Image'? If you think it is a 'has-a' relationship, refactor the code. As long as you defend your decision in the response below it could be either--but defend your position well!
-	- *edit your response*
-1. I did not declare a constructor for Texture. Does Python automatically create constructors for us? 
-	- *edit your response*
 
->>>>>>> c18438daf4a04b5b385bba5e8b3117d1947341a8
 ## Task 2 - Singleton
 
 1. Refactor the singleton.py file such that:
@@ -48,12 +36,7 @@ Note: You do not 'have' a constructor, but you construct the object in the *inst
 Hint: Look at Lecture 3 slides for an example of creating a Singleton in Python
 
 1. Are singleton's in Python thread safe? Why or why not?
-
 *edit the code directly*  
-<<<<<<< HEAD
   By default, singletons in Python are not thread-safe.
-
 To make a singleton thread-safe, could use locking mechanisms, such as using a thread lock, to ensure that only one thread can create the instance at a time. The threading module in Python provides tools to accomplish this.
-=======
-  
->>>>>>> c18438daf4a04b5b385bba5e8b3117d1947341a8
+
