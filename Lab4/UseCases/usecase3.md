@@ -6,31 +6,44 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**:  Canvas Clearing with Space Key
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: To clear the drawing canvas, filling it entirely with the last selected color.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: 
+The application is open and active.
+The canvas area is accessible.
+A color has been previously selected.
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: User presses the space key.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario**: 
+User has completed some drawing on the canvas.
+User decides to clear the canvas.
+User presses the space key.
+System recognizes the key press event.
+System clears all the pixels on the canvas.
+System fills the entire canvas with the last selected color.
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: 
+If the application fails to recognize the space key press, a  notification may guide the user to try again.
+If no color has been previously selected, the canvas might default to a pre-defined color.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: Medium
 
-**When available**: *the targeted release that covers this use case*
+**When available**: Version 1.3
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**:  Through the keyboard input and the graphical user interface (GUI) of the application.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**: None
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**: None
 
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**: 
+Should there be a confirmation prompt before clearing the canvas?
+Is there a need for an undo feature after the canvas is cleared?
 
 <hr>
 

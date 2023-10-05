@@ -6,31 +6,37 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**:  Window & Canvas Dimension Setting
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User 
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: To ensure the application's window and canvas have the dimensions of 600 pixels in width and 400 pixels in height.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: The application is launched or the user is in settings/preferences where window/canvas dimensions can be adjusted.
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: User opens the application or navigates to settings/preferences.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario**: 
+User launches the application.
+System checks the current dimensions of the window and canvas.
+System sets/resizes the window and canvas to 600x400 pixels, if not already.
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: 
+If the application fails to resize, an error is displayed.
+System prompts the user to manually adjust or restart the application.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**:  Medium
 
-**When available**: *the targeted release that covers this use case*
+**When available**: Version 1.1
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**: Through the graphical user interface (GUI) of the application.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**: None
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**:  N/A
 
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**: 
+Should the application remember user-adjusted dimensions?
 
 <hr>
 

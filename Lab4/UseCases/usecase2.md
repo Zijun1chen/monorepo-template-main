@@ -6,31 +6,49 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Color Selection via Number Keys
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: To change the drawing color by pressing one of the number keys from 1 through 8.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: 
+The application is open and active.
+The canvas is accessible.
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: User presses a number key between 1 and 8.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario**: 
+User decides to change the drawing color.
+User presses one of the number keys (1-8).
+System recognizes the key press event.
+System changes the drawing color based on the pressed number:
+1 = Black
+2 = White
+3 = Red
+4 = Green
+5 = Blue
+6 = Yellow
+7 = Magenta
+8 = Cyan
+User starts drawing, and the drawing color corresponds to the selected color.
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: 
+If a number key outside of the 1-8 range is pressed, no change in color occurs.
+If the application fails to recognize the key press, a tooltip or notification may inform the user of the valid number keys to use.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: Medium
 
-**When available**: *the targeted release that covers this use case*
+**When available**: Version 1.2 
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**: Through the keyboard input and the graphical user interface (GUI) of the application.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**:  None
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**:  None
 
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**: 
+Should there be a visual indication showing the active or selected color?
 
 <hr>
 

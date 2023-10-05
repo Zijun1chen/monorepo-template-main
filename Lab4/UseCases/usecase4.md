@@ -6,31 +6,41 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**:  Mouse Drawing on Canvas
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: To draw on the canvas in a manner similar to using a pencil on paper by pressing and dragging the mouse.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: 
+The application is open and active.
+The canvas is accessible and responsive.
+A color has been selected for drawing.
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: User presses the left mouse button while moving the mouse over the canvas.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario**: 
+User positions the mouse cursor over the canvas area where they want to begin drawing.
+User presses the left mouse button and starts dragging the mouse.
+System continuously changes the color of pixels under the mouse cursor to the currently selected color as the user drags the mouse.
+The user releases the mouse button to stop drawing.
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: 
+If the system fails to detect mouse movements or presses, it might not draw on the canvas.
+If the application becomes unresponsive, the user might need to restart or wait.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: High
+**When available**: Version 1.0
 
-**When available**: *the targeted release that covers this use case*
+**Channel to actor**: Through the mouse input and the graphical user interface (GUI) of the application.
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Secondary Actor**: None
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Channels to Secondary Actors**: None
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
-
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**: 
+How does the system handle different shapes?
+Should there be an option to change the drawing's opacity?
 
 <hr>
 
