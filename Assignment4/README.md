@@ -1,7 +1,8 @@
 # TODO Please edit the following information in your assignment
 
-- Name:
+- Name: Zijun Chen
 - How many hours did it take you to complete this assignment?
+- 2 HOURS
 - Did you collaborate with any other students/TAs/Professors?
 - Did you use any external resources? (Cite them below)
   - tbd
